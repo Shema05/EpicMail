@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Email {
+    margin-top: 100px;
+    color: blue;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.Email h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.Email h2 {
+    font-size: 16px;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    
+    background: transparent;
+    border-bottom: 1px solid brown;
+    color: azure;
+    font-size: 30px;
+    margin-bottom: 16px;
+    text-align: center;
+    box-sizing:border-box;
+    position: relative;
+    width:400px; 
+    
+    
+}
+
+
+
+
+.buttons {
+    background: blue;
+    border-color: aquamarine;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline;
+    border-radius: 15px;
+    
+}
+
+.buttons:hover {
+    background-color: blue;
+    cursor: pointer;
+}
