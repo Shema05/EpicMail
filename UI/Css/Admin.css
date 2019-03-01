@@ -1,0 +1,46 @@
+body {
+    margin:0px;
+    padding: 0;
+    
+}
+h1{
+    font: size 40px;
+    margin-left:40px;
+    margin-bottom:10px;  
+}
+.menu ul {
+    list-style-type: square n;  
+    margin: 0px;
+    
+    
+}
+
+.menu ul li {
+    padding: 0px;
+    position: relative;
+    width: 100px;
+    background-color:greenyellow;
+    border-top:1px solid;
+}
+.menu ul ul{
+    transition: all 0.3s;
+    
+    position:relative;
+    display:block; 
+    visibility: visible;
+    left: 63%;
+
+}
+ 
+.menu ul li:hover > ul{
+  opacity:1;
+  visibility:visible;  
+}
+.menu ul li a {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+     
+    
+    
+}
