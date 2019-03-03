@@ -8,8 +8,6 @@ body {
 
 .container {
    position:relative ;
-    
-    margin-left:0%;
     width: 80%;
     height: 75%;
     background-color: blue;
@@ -23,23 +21,18 @@ body {
         margin-top: 15px;
         margin-bottom:30px;
        
-        
-}
+    }
 
         
-        
-           
-        
-        
-          .left li {
-                box-sizing: border-box;
-                padding: 15px;
-                width: 500px;
-                height: 100px;
-                display: block;
-                margin-top: 15px;
-                background-color:white;
-                list-style:square 
+.left li {
+            box-sizing: border-box;
+            padding: 15px;
+            width: 500px;
+            height: 100px;
+            display: block;
+            margin-top: 15px;
+            background-color:white;
+             
             }
                 
                 .name {
