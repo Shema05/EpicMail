@@ -1,0 +1,102 @@
+body {
+    background-color: green;
+    padding: none;
+    margin: 0px
+    }
+
+.container {
+   position:relative ;
+    width: 80%;
+    height: 75%;
+    background-color: blue;
+   
+}
+.left {
+        float: left;
+        width: 500px;;;
+        height: 600px;;
+        background-color: red;
+        margin-top: 15px;
+        margin-bottom:30px;
+       
+    }
+
+        
+.left li {
+            box-sizing: border-box;
+            padding: 15px;
+            width: 500px;
+            height: 100px;
+            display: block;
+            margin-top: 15px;
+            background-color:white;
+             
+            }
+                
+                .name {
+                    font-size: 20px;
+                    font-style: none;
+                    
+                }
+                
+                .time {
+                    font-size: 18px;
+                    margin-right:10px;
+                }
+                .preview {
+                    font-size: 18px;
+                    display: inline-block;
+                    overflow: hidden !important;
+                    width: 70%;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    
+                }
+                
+                   
+    .right {
+        position: relative;
+        float: left;
+        width: 400px;;
+        height:600px ;
+        background-color: goldenrod;
+        margin-top: 15px;
+    }
+
+
+        .top {
+            width: 340px;
+            height: 30px;
+            padding: 15px 29px;
+            background-color: #eceff1;
+            position: relative;
+            margin-top:15px;
+        }
+        .EmailContent {
+           position: relative;
+           width:400px;
+            
+            }
+          
+          .TimeRecieved{
+            box-sizing:border-box; 
+            background: gray;
+            font-size: 20px;
+            color: white;
+          }
+          .Date{
+            box-sizing:border-box; 
+            background:gray;
+            font-size: 20px;
+            color: greenyellow;
+          }
+          
+          .EmailMessage {
+            box-sizing: border-box;
+            padding:15px;
+            height:auto;
+            background-color: #ccc;
+            color:blue;
+          }
+          
+          
